@@ -52,12 +52,15 @@ Build and start the Docker container:
 
 The bot will be running inside the Docker container.
 
-## Commands
+## Bot Commands
 
-/start - Get instructions on how to use the bot.
-/now - Get the current time.
-/ts <timestamp> - Convert a Unix timestamp to various date formats.
-/date <date> - Convert a human-readable date to a Unix timestamp.
+`/start` - Get instructions on how to use the bot.
+
+`/now` - Get the current time.
+
+`/ts <timestamp>` - Convert a Unix timestamp to various date formats.
+
+`/date <date>` - Convert a human-readable date to a Unix timestamp.
 
 ## License
 
