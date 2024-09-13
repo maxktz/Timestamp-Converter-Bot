@@ -49,6 +49,9 @@ npm start
 ### Running with Docker
 
 Build and start the Docker container:
+```sh
+docker-compose up -d
+```
 
 The bot will be running inside the Docker container.
 
