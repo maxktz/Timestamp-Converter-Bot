@@ -22,7 +22,7 @@ async function converter(ctx: Context) {
   } else if (new Date(val).toString() !== "Invalid Date") {
     const date = new Date(val);
     msg =
-      `Timestamp\n<code><${date.getTime() / 1000}</code>\n` +
+      `Timestamp\n<code>${date.getTime() / 1000}</code>\n` +
       `\n` +
       `Locale Date\n<code>${date.toLocaleString()}\n</code>\n` +
       `\n` +
@@ -51,7 +51,7 @@ bot.command("start", async (ctx) => {
 bot.command("now", async (ctx) => {
   const date = new Date();
   const msg =
-    `Timestamp\n<code><${date.getTime() / 1000}</code>\n` +
+    `Timestamp\n<code>${date.getTime() / 1000}</code>\n` +
     `\n` +
     `Locale Date\n<code>${date.toLocaleString()}</code>\n` +
     `\n` +
