@@ -1,4 +1,4 @@
-## Timestamp Converter Bot
+# Timestamp Converter Bot
 
 Timestamp Converter Bot is a Telegram bot that converts timestamps to human-readable dates and vice versa. It is built using the Telegraf library for Node.js.
 
