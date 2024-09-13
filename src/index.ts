@@ -24,13 +24,13 @@ async function converter(ctx: Context) {
     msg =
       `Timestamp\n<code>${date.getTime() / 1000}</code>\n` +
       `\n` +
-      `Locale Date\n<code>${date.toLocaleString()}\n</code>\n` +
+      `Locale Date\n<code>${date.toLocaleString()}</code>\n` +
       `\n` +
-      `UTC Date\n<code>${date.toUTCString()}\n</code>\n` +
+      `UTC Date\n<code>${date.toUTCString()}</code>\n` +
       `\n` +
-      `ISO Date\n<code>${date.toISOString()}\n</code>\n` +
+      `ISO Date\n<code>${date.toISOString()}</code>\n` +
       `\n` +
-      `JSON Date\n<code>${date.toJSON()}\n</code>\n` +
+      `JSON Date\n<code>${date.toJSON()}</code>\n` +
       ``;
   }
   await ctx.reply(msg, { parse_mode: "HTML" });
@@ -59,7 +59,7 @@ bot.command("now", async (ctx) => {
     `\n` +
     `ISO Date\n<code>${date.toISOString()}</code>\n` +
     `\n` +
-    `JSON Date\n<code>${date.toJSON()}\n</code>\n` +
+    `JSON Date\n<code>${date.toJSON()}</code>\n` +
     ``;
   await ctx.reply(msg, { parse_mode: "HTML" });
 });
