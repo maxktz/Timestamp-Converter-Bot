@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    container_name: twitter_ticker_parser
+    container_name: timestamp-converter-bot
     build: .
     restart: always
     volumes:
